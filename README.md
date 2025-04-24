@@ -40,8 +40,6 @@ GROUP BY Department;
 
 ## b. JOINS (Simulated using self-join for illustration)
 
-Since there's no separate Departments table, here’s a simulated example using self-join to demonstrate JOINs:
-
 ```sql
 -- INNER JOIN (self-join example)
 SELECT e1.Name AS Employee1, e2.Name AS Employee2, e1.Department
